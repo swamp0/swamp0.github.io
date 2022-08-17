@@ -1,0 +1,36 @@
+.base-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.base-2 .padre{
+    display: flex;
+}
+.nowrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nowrap .padre{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap .padre{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap-reverse  .padre{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}

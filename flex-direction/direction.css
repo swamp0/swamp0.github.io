@@ -1,0 +1,56 @@
+.base{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.base .padre{
+    display: flex;
+}
+.row{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .padre{
+    display: flex;
+    flex-direction: row;
+}
+.row .padre .hijo{    
+
+
+}
+
+.row-reverse{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-reverse .padre{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column .padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-reverse{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column-reverse .padre{
+    display: flex;
+    flex-direction: column-reverse;
+}
